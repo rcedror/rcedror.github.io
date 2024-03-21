@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+ }
+
+section{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+
+.logo-marcos-jatoba{
+    max-width: 50%;
+}
+
+@media(max-width:576px){
+    .logo-marcos-jatoba{
+        max-width: 85%;
+    }
+}
+
+@media(max-width:576px){
+    .marcos-jatoba-foto{
+        display:none;
+    }
+}
+
+
+@media(max-width:576px){
+    .mj-icon{
+        max-width: 50%;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+}
+
+.mj-text-justify{
+    text-align: justify;
+}
+
+.badge-mj{
+    background-color: #A48955;
+    margin-inline: 10px;
+    padding: 2px;
+    border-radius: 20%;
+}
+
+.bg-mj-marrom{
+    background-color: #A48955;
+    color: white;
+}
+
+.bg-mj-azul{
+    background-color: #030E30;
+    color: white;
+}
+
+.mj-cbsa{
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    box-shadow: 10px 20px #030E30;
+}
+
+.border-mj{
+    border: 5px dashed #A48955;
+    border-radius: 3%;
+}
+
+.icon-instagram{
+    text-decoration: none;
+}
+
+.icon-instagram:visited{
+    color: white;
+}
+
+.icon-instagram svg{
+    width: 38px;
+    color: #A48955;
+    transition: 0.5s;
+}
+.icon-instagram svg:hover{
+    color: #030E30;
+    width: 50px;
+    transition: 0.5s;
+}
+
+.bottom-exp:hover{
+    font-size: 100%;
+    transition: 0.5s;
+}
+
+.bottom-exp{
+    transition: 0.5s;
+}
+
+.mj-ft-marrom{
+    color: #A48955;
+}
+
+.mj-ft-azul{
+    color: #030E30;
+}
+
+.mj-ft-vermelho{
+    color: #FF3843;
+}
+.number-card{
+    position: absolute;
+    padding: 3px;
+    top: -0.5rem;
+    left: -0.5rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.effect{
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.slider-h {
+    animation: go-back-h 2s;
+}
+
+.slider-v {
+    animation: go-back-v 2s;
+}
+  
+@keyframes go-back-h {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+
+@keyframes go-back-v {
+    from {
+      transform: translateY(-100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+} 
+
+.show-resultado{
+    transition: 2.0s;
+}
+
+.whats {
+    position: fixed;
+    z-index: 90;
+    bottom: 2%;
+    right: 2%;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.4);
+    text-align: center;
+    background: #4dc247;
+    border-radius: 100%;
+    transition: .3s linear
+}
+
+@media(prefers-reduced-motion:reduce) {
+    .whats {
+        transition: none
+    }
+}
+
+.whats:hover {
+    background: #3da838;
+    box-shadow: 2px 2px 6px rgba(0,0,0,.8)
+}
+
+.whats .icon {
+    margin: 7px auto 0;
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    display: inline-block
+}
