@@ -63,7 +63,7 @@ btn.addEventListener('click', () =>{
     resultado.classList.remove("hide-resultado");
     resultado.classList.remove("mj-ft-azul");
     resultado.classList.add("show-resultado");
-    resultado.classList.add("mj-ft-vermelho");
+    resultado.classList.add("mj-ft-branca");
 
   }else{
 
@@ -101,7 +101,7 @@ btn.addEventListener('click', () =>{
     
 
     resultado.classList.remove("hide-resultado");
-    resultado.classList.remove("mj-ft-vermelho");
+    resultado.classList.remove("mj-ft-branca");
     resultado.classList.add("show-resultado");
     resultado.classList.add("mj-ft-azul");
 
