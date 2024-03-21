@@ -14,20 +14,20 @@ section{
     max-width: 50%;
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
     .logo-marcos-jatoba{
         max-width: 85%;
     }
 }
 
-@media(max-width:576px){
+@media(max-width:768px){
     .marcos-jatoba-foto{
         display:none;
     }
 }
 
 
-@media(max-width:576px){
+@media(max-width:768px){
     .mj-icon{
         max-width: 50%;
         margin-top: 20px;
