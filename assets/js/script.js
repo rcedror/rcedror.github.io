@@ -234,8 +234,8 @@ btn.addEventListener('click', () =>{
 
     var resultado = document.getElementById('resultado-calculadora');
     resultado.innerHTML = `<img class=\'img-fluid mt-2 mb-2\' src=\'assets\/images\/x.png\'>
-                        <p>A LEI PERMITE A RECUPERAÇÃO DE ATÉ 5 ANOS, OU SEJA, NUM PERÍODO MÁXIMO DE 60 MESES.<\/p>
-                        <p>POR GENTILEZA INFORME UM PERÍODO ENTRE 1 E 60 MESES.<\/p>`;
+                        <p>A LEI PERMITE A RECUPERAÇÃO DE ATÉ 5 ANOS, OU SEJA, UM PERÍODO MÁXIMO DE 60 MESES.<\/p>
+                        <p>POR GENTILEZA, INFORME UM PERÍODO ENTRE 1 E 60 MESES.<\/p>`;
   
     resultado.classList.remove("hide-resultado");
     resultado.classList.remove("mj-ft-azul");
