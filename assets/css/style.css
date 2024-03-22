@@ -111,6 +111,10 @@ section{
 .mj-ft-branca{
     color: white;
 }
+
+.mj-ft-verde{
+    color: #4DC247;
+}
 .number-card{
     position: absolute;
     padding: 3px;

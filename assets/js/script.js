@@ -110,7 +110,7 @@ btn.addEventListener('click', () =>{
                         <p>DE ACORDO COM O VALOR INFORMADO SUA EMPRESA NÃO SE ENQUADRA NO SIMPLES NACIONAL.<\/p>`;
   
     resultado.classList.remove("hide-resultado");
-    resultado.classList.remove("mj-ft-azul");
+    resultado.classList.remove("mj-ft-verde");
     resultado.classList.add("show-resultado");
     resultado.classList.add("mj-ft-branca");
 
@@ -221,14 +221,14 @@ btn.addEventListener('click', () =>{
       resultado.innerHTML = `<img class=\'img-fluid mt-2 mb-2\' src=\'assets\/images\/de-dinheiro.png\'>
                             <p>CRÉDITO TOTAL APURADO R$ ${creditoapuradoprint} <\/p> 
                             <p>ECONOMIA MENSAL R$ ${economiamensalprint}<\/p>
-                            <span class=\'fs-6 fw-light\'>OS VALORES SÃO ESTIMADOS COM BASE NO SEGMENTO DE ATUAÇÃO E FATURAMENTO, 
+                            <span class=\'fs-6 fw-light mj-ft-azul\'>OS VALORES SÃO ESTIMADOS COM BASE NO SEGMENTO DE ATUAÇÃO E FATURAMENTO, 
                             O VALOR REAL SERÁ APURADO APÓS ANÁLISE DETALHADA.</span>`;
       
 
       resultado.classList.remove("hide-resultado");
       resultado.classList.remove("mj-ft-branca");
       resultado.classList.add("show-resultado");
-      resultado.classList.add("mj-ft-azul");
+      resultado.classList.add("mj-ft-verde");
 
     }else{
 
@@ -238,7 +238,7 @@ btn.addEventListener('click', () =>{
                         <p>POR GENTILEZA, INFORME UM PERÍODO ENTRE 1 E 60 MESES.<\/p>`;
   
     resultado.classList.remove("hide-resultado");
-    resultado.classList.remove("mj-ft-azul");
+    resultado.classList.remove("mj-ft-verde");
     resultado.classList.add("show-resultado");
     resultado.classList.add("mj-ft-branca");
 
