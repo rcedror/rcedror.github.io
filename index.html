@@ -141,7 +141,7 @@
             <div class="container">
 
                 <div class="row fs-3">
-                    <div class="col-12 col-lg-6 text-center">
+                    <div class="col-12 col-lg-6 text-center  my-auto">
                         <h2 class="text-center fs-1 fw-bold">Calculadora Monofásica</h2>
                         <p>Entendeu as vantagens e ficou curioso para saber quanto sua empresa pode recuperar? Veja como é simples utilizar nossa calculadora:
                         
@@ -165,7 +165,7 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <label for="area" class="form-label">Qual tipo de empresa?</label>
+                                <label for="tipoempresa" class="form-label">Qual tipo de empresa?</label>
                                 <select id="tipoempresa" name="tipoempresa" class="form-select w-50 mx-auto" aria-label="area" required>
                                     <option value="1">ME</option>
                                     <option value="2">EPP</option>
@@ -173,7 +173,7 @@
                             </div>
 
                             <div class="mb-3">
-                                <label for="area" class="form-label">Qual é o seu segmento?</label>
+                                <label for="segmento" class="form-label">Qual é o seu segmento?</label>
                                 <select id="segmento" name="segmento" class="form-select w-50 mx-auto" aria-label="area" required>
                                     <option value="1">ADEGA</option>
                                     <option value="2">AUTOPEÇAS </option>
@@ -182,13 +182,19 @@
                                     <option value="5">CENTRO AUTOMOTIVO </option>
                                     <option value="6">FARMÁCIAS</option>
                                     <option value="7">LOJA DE CONVENIÊNCIA</option>
-                                    <option value="8">FARMÁCIAS</option>
-                                    <option value="9">MERCADO/MERCEARIA</option>
-                                    <option value="10">PERFUMARIA</option>
-                                    <option value="11">PET SHOP</option>
-                                    <option value="12">FARMÁCIAS</option>
-                                    <option value="13">FARMÁCIAS</option>
+                                    <option value="8">MERCADO/MERCEARIA</option>
+                                    <option value="9">PERFUMARIA</option>
+                                    <option value="10">PET SHOP</option>
                                 </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="faturamento" class="form-label">Desde que ano sua empresa é optante do simples nacional?(Tempo em MESES)</label>
+                                
+                                <div class="input-group w-50 text-center mx-auto">
+                                    <input type="text" disabled class="form-control w-50 text-center" id="tempoemtexto"> 
+                                    <input name="pediododeapuracao" type="number"  value="1" min="1" max="60" class="form-control" id="pediododeapuracao" onchange="tempoemtexto()" placeholder="MESES" required>
+                                </div>
                             </div>
                             <button id="botao-calculadora" type="submit" class="btn btn-success btn-lg bottom-exp">CALCULAR SEU CRÉDITO</button>
                         </div>
